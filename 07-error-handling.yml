@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     - name: Some shell command
-      ansible.builtin.shell: 1s
+      ansible.builtin.shell: ls
 
     - name: Print Hello
       ansible.builtin.debug:
