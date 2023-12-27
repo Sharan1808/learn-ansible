@@ -3,3 +3,7 @@
   tasks:
     - name: Some shell command
       ansible.builtin.shell: 1s
+
+    - name: Print Hello
+      ansible.builtin.debug:
+        msg: Hello
