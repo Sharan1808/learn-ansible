@@ -11,7 +11,7 @@
           ansible.builtin.shell: /bin/false
 
         - name: Never print this
-          ansible.built.in.debug:
+          ansible.builtin.debug:
             msg: 'I never execute, due to the above task failing, :-('
 
       rescue:
